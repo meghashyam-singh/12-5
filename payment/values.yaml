@@ -1,0 +1,6 @@
+deployment:
+  replicas: 1
+  image: meghashyam792/roboshop
+  imagetag: payment
+service:
+  type: ClusterIP
