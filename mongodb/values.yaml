@@ -1,0 +1,7 @@
+deployment:
+  replicas: 1
+  image: meghashyam792/roboshop
+  imagetag: mongodb
+  
+service:
+  type: ClusterIP
