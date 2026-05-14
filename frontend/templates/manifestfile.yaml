@@ -80,7 +80,7 @@ metadata:
     tier: frontend
     component: frontend
 spec:
-  replicas: {{ .Values.deployement.replicas }}
+  replicas: {{ .Values.deployment.replicas }}
   selector:
     matchLabels:
       project: roboshop
