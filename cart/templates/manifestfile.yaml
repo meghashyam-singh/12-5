@@ -36,7 +36,7 @@ spec:
       serviceAccountName: cart-service-account
       containers:
         - name: cart-cont
-          image: "{{ .Values.deployment.image}}:{{ .Values.deployment.imagetag}}"
+          image: "{{ .Values.deployment.image }}:{{ .Values.deployment.imagetag }}"
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
