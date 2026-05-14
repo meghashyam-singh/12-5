@@ -2,5 +2,6 @@ deployment:
   replicas: 1
   image: meghashyam792/roboshop
   imagetag: user
+  
 service:
   type: ClusterIP
