@@ -39,7 +39,7 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 6379
-              name: redis-cont
+              name: redis-port
           resources:
             requests:
               cpu: "200m"
