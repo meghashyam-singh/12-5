@@ -86,12 +86,12 @@ spec:
     - metadata:
         name: mysql-pvc
       spec:
-        accessMode:
+        accessModes:
           - ReadWriteOnce
         storageClassName: mysql-storage
         resources:
           requests:
-            stirage: "10Gi"
+            storage: "10Gi"
 
 ---
 apiVersion: v1
