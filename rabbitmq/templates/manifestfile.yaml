@@ -54,9 +54,9 @@ spec:
             requests:
               cpu: "300m"
               memory: "128Mi"
-            memory: 
+            limits: 
               cpu: "500m"
-              memory: "256Mi"
+              memory: "512Mi"
           readinessProbe:
             tcpSocket:
               port: rabbitmq-port
